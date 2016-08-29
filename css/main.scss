@@ -1,0 +1,35 @@
+$image_wid:100px;
+$font_color:#1d2129;
+$theme_color:#21252b;
+
+@mixin link($color:$theme_color){
+  color: $color;
+  text-decoration: underline;
+}
+
+body{
+  color: $font_color;
+  background-color: $theme_color;
+}
+
+div.top{
+  background-color: white;
+}
+
+img#RS{
+  width: $image_wid;
+  height: auto;
+}
+
+a:link{
+  @include link();
+}
+a:visited{
+  @include link();
+}
+a:hover{
+  @include link(#566275);
+}
+a:active{
+  @include link();
+}

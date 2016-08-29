@@ -1,0 +1,28 @@
+body {
+  color: #1d2129;
+  background-color: #21252b; }
+
+div.top {
+  background-color: white; }
+
+img#RS {
+  width: 100px;
+  height: auto; }
+
+a:link {
+  color: #21252b;
+  text-decoration: underline; }
+
+a:visited {
+  color: #21252b;
+  text-decoration: underline; }
+
+a:hover {
+  color: #566275;
+  text-decoration: underline; }
+
+a:active {
+  color: #21252b;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
