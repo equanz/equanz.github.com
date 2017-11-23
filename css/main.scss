@@ -42,3 +42,7 @@ a:hover{
 a:active{
   @include link();
 }
+
+footer{
+  text-align: center;
+}
