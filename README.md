@@ -1,2 +1,2 @@
-# rikyuusima.github.com
+# equanz.github.com
 My Profile
